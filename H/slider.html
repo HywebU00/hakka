@@ -1,0 +1,84 @@
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link type="image/ico" rel="icon" href="images/basic/favicon.png">
+	<title>slider</title>
+
+	<!-- slick 輪播-->
+	<link rel="stylesheet" href="assets/module/slick/slick.css">
+	<link rel="stylesheet" href="assets/module/slick/slick-theme.css">
+	<!-- slick 輪播自訂CSS -->
+	<link rel="stylesheet" href="css/slick-slide.css">
+
+	<!--fontello icon font -->
+	<link rel="stylesheet" href="assets/module/fontello/css/fontello.css">
+
+	<!-- 自訂CSS -->
+	<link rel="stylesheet" href="css/customize.css">
+	<style type="text/css" media="screen">
+		.slick-prev:before,
+		.slick-next:before {
+			font-family: 'slick';
+			font-size: 20px;
+			line-height: 1;
+			opacity: .75;
+			color: #000;
+		}
+
+		.slick-prev {
+			left: 0px;
+			z-index: 9;
+		}
+
+		.slick-next {
+			right: 0px;
+			z-index: 9;
+		}
+	</style>
+</head>
+<body>
+	<div class="Responsive_slider">
+		<div class=""><a href=""><img src="https://placem.at/places?w=300&h=350&random=1" alt=""></a></div>
+		<div class=""><a href=""><img src="https://placem.at/places?w=300&h=350&random=2" alt=""></a></div>
+		<div class=""><a href=""><img src="https://placem.at/places?w=300&h=350&random=3" alt=""></a></div>
+	</div>
+	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="slick/slick.min.js"></script>
+	<script>
+		$(document).ready(function() {
+		$('.Responsive_slider').slick({
+			dots: true,
+			infinite: true,
+			speed: 500,
+			slidesToShow: 6,
+			slidesToScroll: 6,
+			autoplay: true,
+			autoplaySpeed: 1500,
+			responsive: [{
+				breakpoint: 900,
+				settings: {
+					slidesToShow: 5,
+					slidesToScroll: 5,
+					infinite: true,
+					dots: true
+				}
+			}, {
+				breakpoint: 720,
+				settings: {
+					slidesToShow: 4,
+					slidesToScroll: 4
+				}
+			}, {
+				breakpoint: 480,
+				settings: {
+					slidesToShow: 3,
+					slidesToScroll: 3
+				}
+			}]
+		});
+	});
+	</script>
+</body>
+</html>
