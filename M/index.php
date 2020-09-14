@@ -244,6 +244,91 @@
 				</div>
 			</div>
 		</div>
+
+		<!-- 2020 新增 -->
+		<div class="Block PicBrick2">
+			<div class="container">
+				<div class="row">
+					<h2 class="BlockTitle"><span>近期活動</span><a href="#" class="btn">活動行事曆</a></h2>
+					<div class="clearfix">
+						<div class="BrickBox">
+							<a href="" title="">
+								<img src="images/01.jpg" alt="" class="img-responsive">
+								<!-- <div class="Brick_Text">
+									<p>1苗栗園區勇闖Hi客島~歡迎各校預約來闖關!!!</p>
+								</div> -->
+								<div class="Brick_Text">
+	                                <div class="tag">臺灣客家文化館</div>
+	                                <h3>黃桂志客家合唱團〈又見春風〉音樂劇回顧黃桂志客家合唱團〈又見春風〉音樂劇回顧黃桂志客家合唱團〈又見春風〉音樂劇回顧</h3>
+	                                <time>
+	                                    <span class="year">2020</span>
+	                                    <span class="month">12</span>
+	                                    <span class="day">01</span>
+	                                </time>
+	                            </div>
+							</a>
+						</div>
+						<div class="BrickBox">
+							<a href="" title="">
+								<img src="images/02.jpg" alt="" class="img-responsive">
+								<div class="Brick_Text">
+	                                <div class="tag tag_liudui">六堆</div>
+	                                <h3>黃桂志客家合唱團〈又見春風〉音樂劇回顧黃桂志客家合唱團〈又見春風〉音樂劇回顧黃桂志客家合唱團〈又見春風〉音樂劇回顧</h3>
+	                                <time>
+	                                    <span class="year">2020</span>
+	                                    <span class="month">12</span>
+	                                    <span class="day">01</span>
+	                                </time>
+	                            </div>
+							</a>
+						</div>
+						<div class="BrickBox">
+							<a href="" title="">
+								<img src="images/03.jpg" alt="" class="img-responsive">
+								<div class="Brick_Text">
+	                                <div class="tag tag_miaoli">苗栗</div>
+	                                <h3>黃桂志客家合唱團〈又見春風〉音樂劇回顧黃桂志客家合唱團〈又見春風〉音樂劇回顧黃桂志客家合唱團〈又見春風〉音樂劇回顧</h3>
+	                                <time>
+	                                    <span class="year">2020</span>
+	                                    <span class="month">12</span>
+	                                    <span class="day">01</span>
+	                                </time>
+	                            </div>
+							</a>
+						</div>
+						<div class="BrickBox">
+							<a href="" title="">
+								<img src="images/h01.jpg" alt="" class="img-responsive">
+								<div class="Brick_Text">
+	                                <div class="tag">臺灣客家文化館</div>
+	                                <h3>黃桂志客家合唱團〈又見春風〉音樂劇回顧黃桂志客家合唱團〈又見春風〉音樂劇回顧黃桂志客家合唱團〈又見春風〉音樂劇回顧</h3>
+	                                <time>
+	                                    <span class="year">2020</span>
+	                                    <span class="month">12</span>
+	                                    <span class="day">01</span>
+	                                </time>
+	                            </div>
+							</a>
+						</div>
+						<div class="BrickBox">
+							<a href="" title="">
+								<img src="images/h02.jpg" alt="" class="img-responsive">
+								<div class="Brick_Text">
+	                                <div class="tag">臺灣客家文化館</div>
+	                                <h3>黃桂志客家合唱團〈又見春風〉音樂劇回顧黃桂志客家合唱團〈又見春風〉音樂劇回顧黃桂志客家合唱團〈又見春風〉音樂劇回顧</h3>
+	                                <time>
+	                                    <span class="year">2020</span>
+	                                    <span class="month">12</span>
+	                                    <span class="day">01</span>
+	                                </time>
+	                            </div>
+							</a>
+						</div>
+					</div>
+					<div class="BTN Brick_More"><a href="" title="">更多近期活動</a></div>
+				</div>
+			</div>
+		</div>
 		
 		<!-- 資訊 -->
 		<div class="Block Info">
