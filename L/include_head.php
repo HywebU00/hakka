@@ -50,5 +50,5 @@
 
 	<!-- <link rel="stylesheet" href="css/customize.css"> -->
 	<!-- <link rel="stylesheet" href="css/customize_en.css"> -->
-	<link rel="stylesheet" href="css/hyui.css">
+	<link rel="stylesheet" href="css/customize.css">
 </head>
