@@ -47,6 +47,6 @@
 
 	<!-- 自訂CSS -->
 	<link rel="stylesheet" href="assets/css/bootstrap.offcanvas.css">
+	<!-- 中英文切換從 sass/ _ch & _en 絹出後改 customize.css 檔名-->
 	<link rel="stylesheet" href="css/customize.css">
-	<!-- <link rel="stylesheet" href="css/customize_en.css"> -->
 </head>
