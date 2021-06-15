@@ -36,12 +36,24 @@
 						<div class="Main_Info">
 							<!--書本資訊-->
 							<div class="row Books">
-								<div class="Book_Cover col-md-4 col-sm-12">
+								<!-- <div class="Book_Cover col-md-4 col-sm-12">
 									<a class="fancybox-buttons" data-fancybox-group="button" href="images/upload/public/001.jpg" title="六堆客家文化園區公共藝術設置計畫-01"><img src="images/upload/public/001.jpg" class="img-responsive" alt="" /></a>
 								
 									<a class="fancybox-buttons" data-fancybox-group="button" href="images/03.jpg" title="六堆客家文化園區公共藝術設置計畫-02"><img src="images/03.jpg" class="img-responsive" alt="" /></a>
 
 									<a class="fancybox-buttons" data-fancybox-group="button" href="images/h01.jpg" title="六堆客家文化園區公共藝術設置計畫-03"><img src="images/h01.jpg" class="img-responsive" alt="" /></a>
+								</div> -->
+								<div class="Book_Cover col-md-4 col-sm-12">
+									<a href="images/demo/06.jpg" data-fancybox="images" data-caption="第1張圖說">
+						                <img src="images/demo/06.jpg" alt="">
+						                <noscript><img src="images/demo/06.jpg" alt=""></noscript>
+						                <span class="caption">第1張圖說</span>
+						            </a>
+						            <a href="images/demo/07.jpg" data-fancybox="images" data-caption="第2張圖說">
+						                <img src="images/demo/07.jpg" alt="">
+						                <noscript><img src="images/demo/07.jpg" alt=""></noscript>
+						                <span class="caption">第2張圖說</span>
+						            </a>
 								</div>
 								<div class="Book_Info col-md-8 col-sm-12">
 									<dl>

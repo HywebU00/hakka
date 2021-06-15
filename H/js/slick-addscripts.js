@@ -163,7 +163,7 @@ $(document).ready(function() {
         speed: 500,
         arrows: true,
         fade: true,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 5000,
         asNavFor: '.slider-nav'
     });
@@ -171,7 +171,7 @@ $(document).ready(function() {
         slidesToShow:5,
         slidesToScroll: 1,
         speed: 500,
-        arrows: true,
+        arrows: false,
         asNavFor: '.slider-for',        
         focusOnSelect: true,
         slide: 'div',
@@ -226,6 +226,47 @@ $(document).ready(function() {
         } else {
             $('.fixed-header').hide();
         }
+    });
+
+    // 
+    $('.cppic_slider').slick({
+        dots: true,
+        infinite: false,
+        speed: 500,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: false,
+        autoplaySpeed: 1500,
+        // pauseOnHover: true,
+        // pauseOnFocus: true,
+        // focusOnSelect: true,
+        // accessibility: true,
+        // lazyLoad: 'ondemand',
+        // ease: 'ease',
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                infinite: true,
+                dots: true
+            }
+        }, {
+            breakpoint: 545,
+            settings: {
+                arrows: true,
+                slidesToShow: 2,
+                slidesToScroll: 2
+            }
+        }, {
+            breakpoint: 480,
+            settings: {
+                arrows: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: false
+            }
+        }]
     });
 
 });

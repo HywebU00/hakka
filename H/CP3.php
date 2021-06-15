@@ -42,32 +42,58 @@
 										<div class="slider-for">
 											<div class="slide">
 												<div class="imgBOX">
-													<img src="images/foto/001.jpg" class="img-responsive">	
+													<!-- <img src="images/foto/001.jpg" class="img-responsive"> -->
+													<a href="images/foto/001.jpg" data-fancybox="images" data-caption="第1張圖說">
+										                <img src="images/foto/001.jpg" alt="">
+										                <noscript><img src="images/foto/001.jpg" alt=""></noscript>
+										                <span class="caption">第1張圖說</span>
+										            </a>
 												</div>
 											</div>
 											<div class="slide">
 												<div class="imgBOX">
-													<img src="images/foto/002.jpg" class="img-responsive">	
+													<a href="images/foto/002.jpg" data-fancybox="images" data-caption="第2張圖說">
+										                <img src="images/foto/002.jpg" alt="">
+										                <noscript><img src="images/foto/002.jpg" alt=""></noscript>
+										                <span class="caption">第2張圖說</span>
+										            </a>
 												</div>
 											</div>
 											<div class="slide">
 												<div class="imgBOX">
-													<img src="images/foto/003.jpg" class="img-responsive">	
+													<a href="images/foto/003.jpg" data-fancybox="images" data-caption="第3張圖說">
+										                <img src="images/foto/003.jpg" alt="">
+										                <noscript><img src="images/foto/003.jpg" alt=""></noscript>
+										                <span class="caption">第3張圖說</span>
+										            </a>
 												</div>
 											</div>
 											<div class="slide">
 												<div class="imgBOX">
-													<img src="images/foto/004.jpg" class="img-responsive">	
+													<a href="images/foto/004.jpg" data-fancybox="images" data-caption="第4張圖說">
+										                <img src="images/foto/004.jpg" alt="">
+										                <noscript><img src="images/foto/004.jpg" alt=""></noscript>
+										                <span class="caption">第4張圖說</span>
+										            </a>
 												</div>
 											</div>
 											<div class="slide">
 												<div class="imgBOX">
-													<img src="images/foto/001.jpg" class="img-responsive">	
+													<!-- <img src="images/foto/001.jpg" class="img-responsive"> -->
+													<a href="images/foto/001.jpg" data-fancybox="images" data-caption="第5張圖說">
+										                <img src="images/foto/001.jpg" alt="">
+										                <noscript><img src="images/foto/001.jpg" alt=""></noscript>
+										                <span class="caption">第5張圖說</span>
+										            </a>
 												</div>
 											</div>
 											<div class="slide">
 												<div class="imgBOX">
-													<img src="images/foto/002.jpg" class="img-responsive">	
+													<a href="images/foto/002.jpg" data-fancybox="images" data-caption="第6張圖說">
+										                <img src="images/foto/002.jpg" alt="">
+										                <noscript><img src="images/foto/002.jpg" alt=""></noscript>
+										                <span class="caption">第6張圖說</span>
+										            </a>
 												</div>
 											</div>
 										</div>

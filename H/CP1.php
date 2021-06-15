@@ -189,11 +189,13 @@
 								</ol>
 							</section>
 						</div>
+
+						<!-- 燈箱照片 -->
+						<?php require_once('include_LightboxSlider.php'); ?>
 					</div>
 				</article>
 			</div>
 		</div>
-
 	</section>
 	<!-- 相關連結 -->
 	<?php require_once('include_BannerSlide.php'); ?>

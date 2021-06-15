@@ -24,9 +24,12 @@
 	<link rel="stylesheet" href="assets/css/megamenu.css">
 
 	<!-- Add fancyBox main JS and CSS files -->
-	<script type="text/javascript" src="js/fancyBox/jquery.fancybox.js?v=2.1.5"></script>
+	<!-- <script type="text/javascript" src="js/fancyBox/jquery.fancybox.js?v=2.1.5"></script>
 	<script type="text/javascript" src="js/fancyBox/fanctbox_set.js"></script>
-	<link rel="stylesheet" type="text/css" href="js/fancyBox/jquery.fancybox.css?v=2.1.5" media="screen" />
+	<link rel="stylesheet" type="text/css" href="js/fancyBox/jquery.fancybox.css?v=2.1.5" media="screen" /> -->
+
+	<!-- 燈箱facybox -->
+    <link rel="stylesheet" type="text/css" href="assets/module/facybox/dist/jquery.fancybox.min.css">
 
 	<!-- slick 輪播-->
 	<link rel="stylesheet" href="assets/module/slick/slick.css">

@@ -121,7 +121,6 @@
 	}
 </script>
 
-
 <!-- scrollUp-->
 <script type="text/javascript" src="assets/js/jquery.scrollUp.js"></script> 
 <!-- scrollUp 自訂-->     
@@ -247,8 +246,11 @@
 	});
 </script>
 
+<!-- 燈箱facybox -->
+<script src="assets/module/facybox/dist/jquery.fancybox.min.js"></script>
+
 <!--fancy box-->
-<script type="text/javascript" src="js/fancyBox/jquery.fancybox.js?v=2.1.5"></script>
+<!-- <script type="text/javascript" src="js/fancyBox/jquery.fancybox.js?v=2.1.5"></script>
 <script type="text/javascript">
 	$(function(){
 	    /* Button helper. Disable animations, hide close button, change title type and content */
@@ -273,4 +275,4 @@
 	        }
 	    });
 	})
-</script>
+</script> -->
