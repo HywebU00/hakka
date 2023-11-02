@@ -838,6 +838,11 @@ input::-moz-placeholder {
   background-size: 60%;
   display: block;
 }
+@media (max-width: 480px) {
+  .IndexSlide .slick-prev {
+    left: 0;
+  }
+}
 
 .IndexSlide .slick-prev:hover {
   background: url(../images/basic/left-white.png) no-repeat 50% 50%, rgba(0, 0, 0, 0.75);
@@ -856,6 +861,11 @@ input::-moz-placeholder {
   border-radius: 4px;
   background: url(../images/basic/right-white.png) no-repeat 50% 50%, rgba(0, 0, 0, 0.5);
   background-size: 60%;
+}
+@media (max-width: 480px) {
+  .IndexSlide .slick-next {
+    right: 0;
+  }
 }
 
 .IndexSlide .slick-next:hover {
