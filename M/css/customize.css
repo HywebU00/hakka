@@ -43,19 +43,19 @@
   }
 }
 /*依視窗寬度改變輪播圖呈現*/
-@media (max-width: 480px) {
-  .IndexSlide .pic .img-web {
+@media (max-width: 767px) {
+  .IndexSlide .pic img.img-web {
     display: none !important;
   }
-  .IndexSlide .pic .img-phone {
+  .IndexSlide .pic img.img-phone {
     display: block !important;
   }
 }
-@media (min-width: 481px) {
-  .IndexSlide .pic .img-web {
+@media (min-width: 768px) {
+  .IndexSlide .pic img.img-web {
     display: block !important;
   }
-  .IndexSlide .pic .img-phone {
+  .IndexSlide .pic img.img-phone {
     display: none !important;
   }
 }
@@ -261,7 +261,7 @@ ul, ol {
   position: fixed;
   z-index: 3000;
   right: 10px;
-  top: 40%;
+  bottom: 20px;
 }
 
 #Doll a {
@@ -286,7 +286,6 @@ ul, ol {
   #Doll {
     right: 0;
     height: 200px;
-    top: 12%;
   }
   #Doll a {
     width: 50px;
@@ -1187,8 +1186,6 @@ input::-moz-placeholder {
   #Header .navbar-collapse {
     background: #fff;
     box-shadow: 0px 20px 20px -10px rgba(85, 85, 85, 0.6);
-    position: absolute;
-    z-index: 3;
     width: 100%;
   }
   #Header .navbar {
@@ -1276,7 +1273,9 @@ input::-moz-placeholder {
   #Header .Search .btn.Advanced {
     margin-top: 6px;
   } /*進階搜尋*/
-  #Header .Search .input-group { /*width: 100%;*/ }
+  #Header .Search .input-group {
+    width: 100%;
+  }
   #Header .Search .btn {
     color: #fff;
     background: #645f5f;
@@ -1334,19 +1333,8 @@ input::-moz-placeholder {
 }
 
 .IndexSlide .pic:after {
-  padding-top: 35%;
   content: "";
   display: block;
-}
-
-.IndexSlide .pic img {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  max-width: 100%;
-  margin: auto;
 }
 
 .IndexSlide .pic a:focus img {
@@ -1371,6 +1359,11 @@ input::-moz-placeholder {
   background-size: 60%;
   display: block;
 }
+@media (max-width: 480px) {
+  .IndexSlide .slick-prev {
+    left: 0;
+  }
+}
 
 .IndexSlide .slick-prev:hover {
   background: url(../images/basic/left-white.png) no-repeat 50% 50%, rgba(0, 0, 0, 0.75);
@@ -1389,6 +1382,11 @@ input::-moz-placeholder {
   border-radius: 4px;
   background: url(../images/basic/right-white.png) no-repeat 50% 50%, rgba(0, 0, 0, 0.5);
   background-size: 60%;
+}
+@media (max-width: 480px) {
+  .IndexSlide .slick-next {
+    right: 0;
+  }
 }
 
 .IndexSlide .slick-next:hover {
