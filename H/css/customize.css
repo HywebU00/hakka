@@ -46,19 +46,19 @@
   }
 }
 /*依視窗寬度改變輪播圖呈現*/
-@media (max-width: 480px) {
-  .IndexSlide .pic .img-web {
+@media (max-width: 767px) {
+  .IndexSlide .pic img.img-web {
     display: none !important;
   }
-  .IndexSlide .pic .img-phone {
+  .IndexSlide .pic img.img-phone {
     display: block !important;
   }
 }
-@media (min-width: 481px) {
-  .IndexSlide .pic .img-web {
+@media (min-width: 768px) {
+  .IndexSlide .pic img.img-web {
     display: block !important;
   }
-  .IndexSlide .pic .img-phone {
+  .IndexSlide .pic img.img-phone {
     display: none !important;
   }
 }
@@ -1053,7 +1053,7 @@ button:focus {
   top: 35px;
   right:15px;
   z-index: 1;
-  }*/
+}*/
 .FB_share {
   margin-top: 10px;
 }
@@ -1083,10 +1083,6 @@ button:focus {
 }
 
 /*進階搜尋*/
-#Header .Search .input-group {
-  width: 74%;
-}
-
 #Header .Search .input-group .form-control:first-child {
   border-radius: 4px;
 }
@@ -1110,7 +1106,7 @@ button:focus {
 #Header .FB_Link {
   margin: 10px 0 0;
   padding: 8px 0 0;
-  height: 91px;
+  height: 90px;
 }
 
 #Header .FB_Link .FB_BTN {
@@ -1364,26 +1360,12 @@ button:focus {
 }
 
 .IndexSlide .pic:after {
-  /*padding-top: 56.25%;*/
-  padding-top: 35%;
   content: "";
   display: block;
 }
 
 .IndexSlide .pic a {
   display: block;
-}
-
-.IndexSlide .pic img {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  /*min-height:100%;*/
-  max-width: 100%;
-  margin: auto;
-  /*object-fit : cover;*/
 }
 
 .IndexSlide .pic a:focus img {
@@ -1408,6 +1390,11 @@ button:focus {
   background-size: 60%;
   display: block;
 }
+@media (max-width: 480px) {
+  .IndexSlide .slick-prev {
+    left: 0;
+  }
+}
 
 .IndexSlide .slick-prev:hover {
   background: url(../images/basic/left-white.png) no-repeat 50% 50%, rgba(0, 0, 0, 0.75);
@@ -1420,11 +1407,17 @@ button:focus {
 
 .IndexSlide .slick-next {
   right: 35px;
+  top: 50%;
   width: 50px !important;
   height: 90px !important;
   border-radius: 4px;
   background: url(../images/basic/right-white.png) no-repeat 50% 50%, rgba(0, 0, 0, 0.5);
   background-size: 60%;
+}
+@media (max-width: 480px) {
+  .IndexSlide .slick-next {
+    right: 0;
+  }
 }
 
 .IndexSlide .slick-next:hover {
