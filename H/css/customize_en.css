@@ -44,18 +44,18 @@
 }
 /*依視窗寬度改變輪播圖呈現*/
 @media (max-width: 767px) {
-  .IndexSlide .pic .img-web {
+  .IndexSlide .pic img.img-web {
     display: none !important;
   }
-  .IndexSlide .pic .img-phone {
+  .IndexSlide .pic img.img-phone {
     display: block !important;
   }
 }
 @media (min-width: 768px) {
-  .IndexSlide .pic .img-web {
+  .IndexSlide .pic img.img-web {
     display: block !important;
   }
-  .IndexSlide .pic .img-phone {
+  .IndexSlide .pic img.img-phone {
     display: none !important;
   }
 }
@@ -674,6 +674,9 @@ input::-moz-placeholder {
     background: none;
     border-bottom: 1px solid #ccc;
   }
+  #Header .collapse.in .pull-right {
+    float: none !important;
+  }
   #Header .navbar {
     background: none;
   }
@@ -695,10 +698,10 @@ input::-moz-placeholder {
   }
   /*主選單*/
   #Header .MainMenu {
-    padding: 0;
     height: auto;
     font-size: 0.688em;
     margin-top: 0;
+    padding: 0;
   }
   #Header .MainMenu .navbar-nav .dropdown-menu > li ul {
     background: #fff;
@@ -751,10 +754,11 @@ input::-moz-placeholder {
   #Header .Search {
     margin: 0;
     text-align: left;
+    max-width: 100%;
   }
   #Header .Search .btn.Advanced {
     margin-top: 6px;
-  } /*進階搜尋*/
+  }
   #Header .Search .input-group { /*width: 100%;*/ }
   /*FB_Link*/
   #Header .FB_Link {
@@ -765,7 +769,6 @@ input::-moz-placeholder {
   #Header .Header_Links {
     height: auto;
     background: none;
-    float: none;
   }
   #Header .Header_Links li:after {
     content: "";
@@ -779,12 +782,12 @@ input::-moz-placeholder {
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 0.938em;
-    color: #464646;
+    color: #fff;
     text-shadow: none;
   }
   #Header .Header_Links li a:hover,
   #Header .Header_Links li a:focus {
-    background: #eee;
+    background: #246E9C;
     border: 0;
   }
 }
