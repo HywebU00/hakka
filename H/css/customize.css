@@ -260,7 +260,7 @@ ul, ol {
   position: fixed;
   z-index: 3000;
   right: 10px;
-  top: 40%;
+  bottom: 20px;
 }
 
 #Doll a {
@@ -285,7 +285,6 @@ ul, ol {
   #Doll {
     right: 0;
     height: 200px;
-    top: 12%;
   }
   #Doll a {
     width: 50px;
