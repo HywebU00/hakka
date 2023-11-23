@@ -4,7 +4,7 @@ $(document).ready(function() {
         dotsClass: 'slick-dots',
         infinite: true,
         arrows: true,
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 5000,
         slidesToShow: 1,
         slidesToScroll: 1
