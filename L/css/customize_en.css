@@ -560,10 +560,13 @@ input::-moz-placeholder {
 /*進階搜尋*/
 #Header .Search .input-group .form-control:first-child {
   border-radius: 4px;
+  padding-right: 38px;
 }
 
 #Header .Search .input-group-btn {
   width: 40px !important;
+  position: absolute;
+  right: 0;
 }
 
 /*關鍵字*/
@@ -595,7 +598,7 @@ input::-moz-placeholder {
 #Header .FB_Link .FB_BTN {
   background: #3c5a9c;
   display: inline-block;
-  padding: 6px 15px 6px 5px;
+  padding: 6px 0 6px 5px;
   width: calc(50% - 4px);
 }
 
@@ -722,7 +725,7 @@ input::-moz-placeholder {
   }
   /*進階搜尋*/
   #Header .Search .input-group {
-    width: 70%;
+    width: calc(100% - 100px);
   }
   /*FB_Link*/
   #Header .FB_Link {
@@ -838,6 +841,9 @@ input::-moz-placeholder {
   } /*進階搜尋*/
   #Header .Search .input-group {
     width: 100%;
+  }
+  #Header .Search .input-group-btn .btn {
+    width: 40px;
   }
   #Header .Search .btn {
     color: #fff;

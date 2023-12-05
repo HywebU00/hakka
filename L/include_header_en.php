@@ -56,7 +56,7 @@
                 <!--fb link-->
                 <div class="FB_Link">
                   <div class="FB_BTN"><a href="" title="" tabindex="105"><i class="icon-facebook-1"></i>Taiwan Hakka Museum</a></div>
-                  <div class="FB_BTN"><a href="" title="" tabindex="105"><i class="icon-facebook-1"></i>Liudui Park</a></div>
+                  <div class="FB_BTN"><a href="" title="" tabindex="105"><i class="icon-facebook-1"></i>Liugdui Hakka Cultural Park</a></div>
                 </div>
                 <!--search-->
                 <div class="Search">
