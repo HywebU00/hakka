@@ -59,6 +59,29 @@
     display: none !important;
   }
 }
+noscript {
+  display: block;
+  padding: 0.5em;
+  border: 2px solid #d7d7d7;
+  background: #fff;
+  color: #666;
+  overflow: hidden;
+  line-height: 1.45em;
+  font-size: 0.813em;
+  margin: 0 0.5em 0.5em;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+noscript a {
+  color: blue;
+}
+
+noscript a:hover,
+noscript a:focus-visible {
+  color: blue;
+}
+
 body {
   font-family: "微軟正黑體", Arial, Helvetica, sans-serif;
 }
